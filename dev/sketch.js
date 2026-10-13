@@ -159,32 +159,32 @@ let playerHitFlash = 0;
 
 
 function preload() {
-  homepage_background = loadImage("assets/homepage_background.png");
-  homepage_cat = loadImage("assets/cat_homepage.png");
-  title1 = loadImage("assets/title1.png");
-  title2 = loadImage("assets/title2.png");
+  homepage_background = loadImage("../assets/images/homepage_background.png");
+  homepage_cat = loadImage("../assets/images/cat_homepage.png");
+  title1 = loadImage("../assets/images/title1.png");
+  title2 = loadImage("../assets/images/title2.png");
 
-  start_game1 = loadImage("assets/start_game1.png");
-  start_game2 = loadImage("assets/start_game2.png");
+  start_game1 = loadImage("../assets/images/start_game1.png");
+  start_game2 = loadImage("../assets/images/start_game2.png");
 
-  skins1 = loadImage("assets/skins1.png");
-  skins2 = loadImage("assets/skins2.png");
+  skins1 = loadImage("../assets/images/skins1.png");
+  skins2 = loadImage("../assets/images/skins2.png");
 
-  story1 = loadImage("assets/story1.png");
-  story2 = loadImage("assets/story2.png");
-  story3 = loadImage("assets/story3.png");
-  story4 = loadImage("assets/story4.png");
-  story5 = loadImage("assets/story5.png");
-  story6 = loadImage("assets/story6.png");
+  story1 = loadImage("../assets/images/story1.png");
+  story2 = loadImage("../assets/images/story2.png");
+  story3 = loadImage("../assets/images/story3.png");
+  story4 = loadImage("../assets/images/story4.png");
+  story5 = loadImage("../assets/images/story5.png");
+  story6 = loadImage("../assets/images/story6.png");
 
-  slideSound1 = loadSound("assets/VoiceRecord1.mp3");
-  slideSound2 = loadSound("assets/VoiceRecord2.mp3");
-  slideSound3 = loadSound("assets/VoiceRecord3.mp3");
-  slideSound4 = loadSound("assets/VoiceRecord4.mp3");
-  slideSound5 = loadSound("assets/VoiceRecord5.mp3");
-  slideSound6 = loadSound("assets/VoiceRecord6.mp3");
+  slideSound1 = loadSound("../assets/audio/VoiceRecord1.mp3");
+  slideSound2 = loadSound("../assets/audio/VoiceRecord2.mp3");
+  slideSound3 = loadSound("../assets/audio/VoiceRecord3.mp3");
+  slideSound4 = loadSound("../assets/audio/VoiceRecord4.mp3");
+  slideSound5 = loadSound("../assets/audio/VoiceRecord5.mp3");
+  slideSound6 = loadSound("../assets/audio/VoiceRecord6.mp3");
 
-  message_noti = loadSound("assets/message_noti.mp3");
+  message_noti = loadSound("../assets/audio/message_noti.mp3");
 
   slideSounds = [
     slideSound1,
@@ -195,151 +195,151 @@ function preload() {
     slideSound6
   ];
 
-  transition_background = loadImage("assets/transition_background.png");
-  transition_sound = loadSound("assets/transition_sound.mp3");
-  boss_music = loadSound("assets/boss_music.mp3");
+  transition_background = loadImage("../assets/images/transition_background.png");
+  transition_sound = loadSound("../assets/audio/transition_sound.mp3");
+  boss_music = loadSound("../assets/audio/boss_music.mp3");
 
-  ending_slide = loadImage("assets/ending_slide.png");
+  ending_slide = loadImage("../assets/images/ending_slide.png");
 
-  return1 = loadImage("assets/return1.png");
-  return2 = loadImage("assets/return2.png");
+  return1 = loadImage("../assets/images/return1.png");
+  return2 = loadImage("../assets/images/return2.png");
 
-  game_over1 = loadImage("assets/game_over1.png");
-  game_over2 = loadImage("assets/game_over2.png");
+  game_over1 = loadImage("../assets/images/game_over1.png");
+  game_over2 = loadImage("../assets/images/game_over2.png");
 
-  victory1 = loadImage("assets/victory1.png");
-  victory2 = loadImage("assets/victory2.png");
-  mapCleared_img = loadImage("assets/map_cleared.png");
+  victory1 = loadImage("../assets/images/victory1.png");
+  victory2 = loadImage("../assets/images/victory2.png");
+  mapCleared_img = loadImage("../assets/images/map_cleared.png");
 
-  skip1 = loadImage("assets/skip1.png");
-  skip2 = loadImage("assets/skip2.png");
+  skip1 = loadImage("../assets/images/skip1.png");
+  skip2 = loadImage("../assets/images/skip2.png");
 
-  cat_orange = loadImage("assets/sprite_sheet_orange_dad.png");
-  cat_white = loadImage("assets/sprite_sheet_white.png");
-  cat_tan = loadImage("assets/sprite_sheet_orange.png");
-  cat_charzard = loadImage("assets/sprite_sheet_orange_mom.png");
+  cat_orange = loadImage("../assets/images/sprite_sheet_orange_dad.png");
+  cat_white = loadImage("../assets/images/sprite_sheet_white.png");
+  cat_tan = loadImage("../assets/images/sprite_sheet_orange.png");
+  cat_charzard = loadImage("../assets/images/sprite_sheet_orange_mom.png");
 
   skinChoice = cat_tan;
-  skin_selection = loadImage("assets/skin_select_button.png");
+  skin_selection = loadImage("../assets/images/skin_select_button.png");
 
-  rat1 = loadImage("assets/rat.png");
-  rat_blue = loadImage("assets/rat_blue.png");
-  rat_parmesan = loadImage("assets/rat_parmesan.png");
-  rat_cake = loadImage("assets/rat_cake.png");
+  rat1 = loadImage("../assets/images/rat.png");
+  rat_blue = loadImage("../assets/images/rat_blue.png");
+  rat_parmesan = loadImage("../assets/images/rat_parmesan.png");
+  rat_cake = loadImage("../assets/images/rat_cake.png");
 
-  rat_boss = loadImage("assets/rat_boss.png");
-  rat_boss_blue = loadImage("assets/rat_boss_blue.png");
-  rat_boss_parmesan = loadImage("assets/rat_boss_parmesan.png");
-  rat_boss_cake = loadImage("assets/rat_boss_cake.png");
+  rat_boss = loadImage("../assets/images/rat_boss.png");
+  rat_boss_blue = loadImage("../assets/images/rat_boss_blue.png");
+  rat_boss_parmesan = loadImage("../assets/images/rat_boss_parmesan.png");
+  rat_boss_cake = loadImage("../assets/images/rat_boss_cake.png");
 
-  icu = loadImage("assets/interface.png");
-  heart = loadImage("assets/heart.png");
-  inventory1 = loadImage("assets/inventory.png");
-  level_nacho = loadImage("assets/level_nacho.png");
-  level_cheeseCake = loadImage("assets/level_cheesecake.png");
-  level_blueCheese = loadImage("assets/level_blueCheese.png");
-  level_parmesan = loadImage("assets/level_parmesan.png");
+  icu = loadImage("../assets/images/interface.png");
+  heart = loadImage("../assets/images/heart.png");
+  inventory1 = loadImage("../assets/images/inventory.png");
+  level_nacho = loadImage("../assets/images/level_nacho.png");
+  level_cheeseCake = loadImage("../assets/images/level_cheesecake.png");
+  level_blueCheese = loadImage("../assets/images/level_blueCheese.png");
+  level_parmesan = loadImage("../assets/images/level_parmesan.png");
 
-  homepage_sound = loadSound("assets/homepage_sound.mp3");
+  homepage_sound = loadSound("../assets/audio/homepage_sound.mp3");
 
-  map1_theme = loadSound("assets/map1_theme.mp3");
-  map2_theme = loadSound("assets/map2_theme.mp3");
-  map3_theme = loadSound("assets/map3_theme.mp3");
-  map4_theme = loadSound("assets/map4_theme.mp3");
+  map1_theme = loadSound("../assets/audio/map1_theme.mp3");
+  map2_theme = loadSound("../assets/audio/map2_theme.mp3");
+  map3_theme = loadSound("../assets/audio/map3_theme.mp3");
+  map4_theme = loadSound("../assets/audio/map4_theme.mp3");
 
-  meowl = loadSound("assets/meowl.mp3");
+  meowl = loadSound("../assets/audio/meowl.mp3");
 
-  loose_heart = loadSound("assets/loose_heart.mp3");
+  loose_heart = loadSound("../assets/audio/loose_heart.mp3");
 
-  rocket = loadImage("assets/rocket.png");
+  rocket = loadImage("../assets/images/rocket.png");
 
-  overmusic = loadSound("assets/GameOver.mp3");
-  slides_track = loadSound("assets/Slides1.0.mp3");
-  victory_music = loadSound("assets/Victory.mp3");
-  openchestSound = loadSound("assets/tp_chest_open.mp3");
-  potion_drink = loadSound("assets/potion_drink.mp3");
-  potion_collect = loadSound("assets/potion_collect.mp3");
-  sword_collect = loadSound("assets/sword_collect.mp3");
-  sword_hit = loadSound("assets/sword_hit.mp3");
-  punch_sound = loadSound("assets/punch.mp3");
+  overmusic = loadSound("../assets/audio/GameOver.mp3");
+  slides_track = loadSound("../assets/audio/Slides1.0.mp3");
+  victory_music = loadSound("../assets/audio/Victory.mp3");
+  openchestSound = loadSound("../assets/audio/tp_chest_open.mp3");
+  potion_drink = loadSound("../assets/audio/potion_drink.mp3");
+  potion_collect = loadSound("../assets/audio/potion_collect.mp3");
+  sword_collect = loadSound("../assets/audio/sword_collect.mp3");
+  sword_hit = loadSound("../assets/audio/sword_hit.mp3");
+  punch_sound = loadSound("../assets/audio/punch.mp3");
 
-  button_beep = loadSound("assets/button_beep.mp3");
-  meow = loadSound("assets/meow.mp3");
+  button_beep = loadSound("../assets/audio/button_beep.mp3");
+  meow = loadSound("../assets/audio/meow.mp3");
 
-  gate_up = loadSound("assets/gate_up.mp3");
-  gate_down = loadSound("assets/gate_down.mp3");
+  gate_up = loadSound("../assets/audio/gate_up.mp3");
+  gate_down = loadSound("../assets/audio/gate_down.mp3");
 
-  rat_squeak1 = loadSound("assets/rat_squeak1.mp3");
-  rat_squeak2 = loadSound("assets/rat_squeak2.mp3");
+  rat_squeak1 = loadSound("../assets/audio/rat_squeak1.mp3");
+  rat_squeak2 = loadSound("../assets/audio/rat_squeak2.mp3");
 
-  roar1 = loadSound("assets/roar1.mp3");
-  roar2 = loadSound("assets/roar2.mp3");
+  roar1 = loadSound("../assets/audio/roar1.mp3");
+  roar2 = loadSound("../assets/audio/roar2.mp3");
 
 
-  sword_nacho = loadImage("assets/sword_nacho.png");
-  sword_blueCheese = loadImage("assets/sword_blueCheese.png");
-  sword_parmesan = loadImage("assets/sword_parmesan.png");
-  sword_cheeseCake = loadImage("assets/sword_cheeseCake.png");
-  potion = loadImage("assets/Potion.png");
-  sword_nacho_selected = loadImage("assets/sword_nacho_selected.png");
-  sword_blueCheese_selected = loadImage("assets/sword_blueCheese_selected.png");
-  sword_parmesan_selected = loadImage("assets/sword_parmesan_selected.png");
-  sword_cheeseCake_selected = loadImage("assets/sword_cheeseCake_selected.png");
-  potion_selected = loadImage("assets/Potion_selected.png");
-  bow = loadImage("assets/bow.png");
-  bow_selected = loadImage("assets/bow_selected.png");
-  arrow_weapon = loadImage("assets/arrow_weapon.png");
+  sword_nacho = loadImage("../assets/images/sword_nacho.png");
+  sword_blueCheese = loadImage("../assets/images/sword_blueCheese.png");
+  sword_parmesan = loadImage("../assets/images/sword_parmesan.png");
+  sword_cheeseCake = loadImage("../assets/images/sword_cheeseCake.png");
+  potion = loadImage("../assets/images/Potion.png");
+  sword_nacho_selected = loadImage("../assets/images/sword_nacho_selected.png");
+  sword_blueCheese_selected = loadImage("../assets/images/sword_blueCheese_selected.png");
+  sword_parmesan_selected = loadImage("../assets/images/sword_parmesan_selected.png");
+  sword_cheeseCake_selected = loadImage("../assets/images/sword_cheeseCake_selected.png");
+  potion_selected = loadImage("../assets/images/Potion_selected.png");
+  bow = loadImage("../assets/images/bow.png");
+  bow_selected = loadImage("../assets/images/bow_selected.png");
+  arrow_weapon = loadImage("../assets/images/arrow_weapon.png");
 
-  floorTileset = loadImage("assets/atlas_floor-16x16.png");
-  wallTileset = loadImage("assets/atlas_walls_high-16x32.png");
-  chestTileset = loadImage("assets/Chest.png");
-  sewerTileset = loadImage("assets/sewer_1.png");
-  royalTileset = loadImage("assets/royal.png");
-  royalTileset2 = loadImage("assets/royal_2.png");
+  floorTileset = loadImage("../assets/images/atlas_floor-16x16.png");
+  wallTileset = loadImage("../assets/images/atlas_walls_high-16x32.png");
+  chestTileset = loadImage("../assets/images/Chest.png");
+  sewerTileset = loadImage("../assets/images/sewer_1.png");
+  royalTileset = loadImage("../assets/images/royal.png");
+  royalTileset2 = loadImage("../assets/images/royal_2.png");
 
-  arrow_up = loadImage("assets/arrow_up.png");
-  arrow = loadImage("assets/arrow.png");
-  arrow_down = loadImage("assets/arrow_down.png");
-  arrow_left = loadImage("assets/arrow_left.png");
-  arrow_right = loadImage("assets/arrow_right.png");
-  number = loadImage("assets/number.png");
-  number_1 = loadImage("assets/number_1.png");
-  number_2 = loadImage("assets/number_2.png");
-  number_3 = loadImage("assets/number_3.png");
-  enter = loadImage("assets/enter.png");
-  enter_selected = loadImage("assets/enter_selected.png");
-  backspace = loadImage("assets/backspace.png");
-  backspace_selected = loadImage("assets/backspace_selected.png");
-  shift = loadImage("assets/shift.png");
-  shift_selected = loadImage("assets/shift_selected.png");
-  controls1 = loadImage("assets/controls1.png");
-  controls2 = loadImage("assets/controls2.png");
+  arrow_up = loadImage("../assets/images/arrow_up.png");
+  arrow = loadImage("../assets/images/arrow.png");
+  arrow_down = loadImage("../assets/images/arrow_down.png");
+  arrow_left = loadImage("../assets/images/arrow_left.png");
+  arrow_right = loadImage("../assets/images/arrow_right.png");
+  number = loadImage("../assets/images/number.png");
+  number_1 = loadImage("../assets/images/number_1.png");
+  number_2 = loadImage("../assets/images/number_2.png");
+  number_3 = loadImage("../assets/images/number_3.png");
+  enter = loadImage("../assets/images/enter.png");
+  enter_selected = loadImage("../assets/images/enter_selected.png");
+  backspace = loadImage("../assets/images/backspace.png");
+  backspace_selected = loadImage("../assets/images/backspace_selected.png");
+  shift = loadImage("../assets/images/shift.png");
+  shift_selected = loadImage("../assets/images/shift_selected.png");
+  controls1 = loadImage("../assets/images/controls1.png");
+  controls2 = loadImage("../assets/images/controls2.png");
 
-  wasd = loadImage("assets/wasd.png");
-  wasd_s = loadImage("assets/wasd_s.png");
-  wasd_a = loadImage("assets/wasd_a.png");
-  wasd_d = loadImage("assets/wasd_d.png");
-  wasd_w = loadImage("assets/wasd_w.png");
-  spacebar = loadImage("assets/spacebar.png");
-  spacebar_selected = loadImage("assets/spacebar_selected.png");
-  snowTileset = loadImage("assets/FE8 - Snowy Bern.png");
+  wasd = loadImage("../assets/images/wasd.png");
+  wasd_s = loadImage("../assets/images/wasd_s.png");
+  wasd_a = loadImage("../assets/images/wasd_a.png");
+  wasd_d = loadImage("../assets/images/wasd_d.png");
+  wasd_w = loadImage("../assets/images/wasd_w.png");
+  spacebar = loadImage("../assets/images/spacebar.png");
+  spacebar_selected = loadImage("../assets/images/spacebar_selected.png");
+  snowTileset = loadImage("../assets/images/FE8 - Snowy Bern.png");
 
   for (let i = 0; i <= 9; i++) {
-    digitImages[i] = loadImage("assets/" + i + ".png");
+    digitImages[i] = loadImage("../assets/images/" + i + ".png");
   }
   for (let i = 0; i <= 9; i++) {
-    digitImagesRed[i] = loadImage("assets/" + i + "_red.png");
+    digitImagesRed[i] = loadImage("../assets/images/" + i + "_red.png");
   }
 
   //Attack Animations
-  attack_down = loadImage("assets/AttackAnimation/slash_down.png");
-  attack_up = loadImage("assets/AttackAnimation/slash_up.png");
-  attack_left = loadImage("assets/AttackAnimation/slash_left.png");
-  attack_right = loadImage("assets/AttackAnimation/slash_right.png");
+  attack_down = loadImage("../assets/images/AttackAnimation/slash_down.png");
+  attack_up = loadImage("../assets/images/AttackAnimation/slash_up.png");
+  attack_left = loadImage("../assets/images/AttackAnimation/slash_left.png");
+  attack_right = loadImage("../assets/images/AttackAnimation/slash_right.png");
 
-  arrow_weapon = loadImage("assets/arrow_weapon.png");
-  potion_strength = loadImage("assets/Potion_boost.png");
-  potion_strength_selected = loadImage("assets/Potion_boost_selected.png");
+  arrow_weapon = loadImage("../assets/images/arrow_weapon.png");
+  potion_strength = loadImage("../assets/images/Potion_boost.png");
+  potion_strength_selected = loadImage("../assets/images/Potion_boost_selected.png");
 }
 
 function getSpawnPoint(map) {

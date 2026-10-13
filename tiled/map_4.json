@@ -981,7 +981,7 @@
         {
          "columns":3,
          "firstgid":2049,
-         "image":"assets\/Chest.png",
+         "image":"..\/assets\/images\/Chest.png",
          "imageheight":48,
          "imagewidth":48,
          "margin":0,

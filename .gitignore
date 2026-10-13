@@ -1,0 +1,7 @@
+# OS metadata
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Local tool state
+.vibe-wise/
