@@ -101,10 +101,8 @@ below are where each person did most of their work.
   planet, the attack lunge, room boundaries, and combat balancing
 - **Menus and screens**: title page, skin-selection page, controls page, game-over and
   victory screens, and the transition screens between planets
-- **HUD and feedback**: pixel-art hearts and inventory bar, damage-number popups, and the
-  item equip animation
-- **Audio integration**: per-planet soundtracks, button, item and enemy sound effects
-- **Bow polish**: arrow sprites and hit detection against enemy hitboxes
+- **HUD, feedback and audio**: pixel-art hearts and inventory bar, damage-number popups,
+  the item equip animation, per-planet soundtracks, and sound effects
 - **Release management**: promoting tested changes from the development build to production
 
 ### Toshura Washington
@@ -114,28 +112,26 @@ below are where each person did most of their work.
 - **Fight rooms**: spike walls, the locked boss room, and the "map cleared" sequence
 - **Planet progression**: random planet order, transitions, and difficulty scaling
 - **Boss fight**: boss spawning and the charge attack
-- **Game feel**: camera shake, hit indication, knockback, and attack-swing timing
-- **Story**: the backstory slideshow and its skip button
+- **Game feel and story**: camera shake, hit indication, knockback, attack-swing timing,
+  and the backstory slideshow
 
 ### Nicole Band
 
-- **Art and UI assets**: title screen, buttons, controls-page images, level name banners,
-  hearts, the inventory bar and item icons, damage-number digits, and the game-over and
-  map-cleared graphics
+- **Title and menu art**: the Space Cats title, menu buttons, and skin-selection graphics
+- **HUD art**: hearts, the interface frame, the inventory bar, and damage-number digits
+- **Item and level art**: weapon icons including the bow, and the name banner for each planet
+- **Screen graphics**: controls-page key images, and the game-over and map-cleared screens
 
 ### Kripa Bishwakarma
 
 - **Combat foundations**: the first enemy movement, enemy and player attacks, and attack ranges
-- **Bow and arrows**: ranged-weapon mechanics and adding the bow to chests
-- **Potions**: the strength-boost potion and its timed effect
-- **Weapons**: sword and potion items and their sprites
-- **Slash animation** for player attacks
+- **Bow and arrows**: ranged-weapon mechanics and the slash animation for melee attacks
+- **Items**: swords, health potions, and the timed strength-boost potion
 
 ### Darrin Annor
 
 - **Inventory and chests**: picking up, selecting, swapping and dropping items, and opening chests
-- **Sound design**: sound effects and music for each game page, plus volume and timing balancing
-- **Narration**: voice-over and on-screen text for the story slides
+- **Sound and narration**: page music and sound effects, and voice-over for the story slides
 
 This repository is a reorganized copy of the team's class repository, with the full commit
 history preserved.
