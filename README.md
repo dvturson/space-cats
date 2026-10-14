@@ -73,8 +73,8 @@ The game loads images and audio over HTTP, so it needs a local web server rather
 opening `index.html` directly from disk.
 
 ```sh
-git clone <this repo's URL>
-cd <repo folder>
+git clone https://github.com/dvturson/space-cats.git
+cd space-cats
 python -m http.server 8000
 ```
 
@@ -135,6 +135,9 @@ below are where each person did most of their work.
 
 This repository is a reorganized copy of the team's class repository, with the full commit
 history preserved.
+
+The original [requirements document](docs/requirements.pdf) describes what the team set out
+to build.
 
 ## Credits
 
