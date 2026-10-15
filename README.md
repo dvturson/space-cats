@@ -1,7 +1,6 @@
 # Space Cats
 
-A top-down roguelike for the browser, built with p5.js. You play a cat fighting through four
-cheese-themed planets to rescue his kidnapped parents from the Rat King.
+A top-down roguelike game built with p5.js. You play a cat fighting through cheese-themed planets to rescue kidnapped parents from the Rat King.
 
 <!-- TODO: replace with the GitHub Pages URL once Pages is enabled on this repo -->
 **Play it:** _link coming soon_
