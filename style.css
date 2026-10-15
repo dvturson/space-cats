@@ -1,8 +1,21 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  background: #000;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Scale the 600x400 canvas to fill the window while keeping its 3:2 shape. */
 canvas {
   display: block;
+  width: min(100vw, 150vh) !important;
+  height: min(100vh, 66.667vw) !important;
+  image-rendering: pixelated;
 }
